@@ -31,8 +31,10 @@ const Home = () => {
       </p>
 
       <h2>Github:</h2>
-      <a href="https://github.com/y3llow/project_image_gallery">React</a>
-      <a href="https://github.com/y3llow/image_gallery_strapi">Strapi</a>
+        <p><a href="https://github.com/y3llow/project_image_gallery">React || </a>
+           <a href="https://github.com/y3llow/image_gallery_strapi">Strapi</a>        
+        </p>
+
     </StyledHome>
   );
 };
