@@ -44,7 +44,7 @@ const UploadForm = () => {
   const [error, setError] = useState(null);
 
   const types = ["image/png", "image/jpeg", "image/jpg"];
-  const { data, uploadImage } = useUpload("http://localhost:1337/upload");
+  const { data, uploadImage } = useUpload("https://image-gallery-strapi.herokuapp.com/upload");
 
   useEffect(() => {
     data[0] && window.location.reload();

@@ -27,7 +27,7 @@ const StyledWrapImg = styled.img`
 `;
 
 const ImageGrid = ({ setSelectedImg }) => {
-  const images = useFetch("http://localhost:1337/upload/files");
+  const images = useFetch("https://image-gallery-strapi.herokuapp.com/upload/files");
 
   return (
     <StyledGrid>
@@ -35,10 +35,10 @@ const ImageGrid = ({ setSelectedImg }) => {
         images.map((image, idx) => (
           <StyledWrap
             key={idx}
-            onClick={() => setSelectedImg("http://localhost:1337" + image.url)}
+            onClick={() => setSelectedImg("https://image-gallery-strapi.herokuapp.com" + image.url)}
           >
             <StyledWrapImg
-              src={"http://localhost:1337" + image.url}
+              src={"https://image-gallery-strapi.herokuapp.com" + image.url}
               alt="uploaded pic"
             />
           </StyledWrap>
