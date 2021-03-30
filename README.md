@@ -3,6 +3,13 @@
 Dit project is een opzetje wat je kan doen met React, Strapi & Framer-Motion.
 Voor vragen kan je me contacten.
 
+## Installation
+
+Hieronder staat beschreven hoe je de app kan starten.
+Je kan de website ook vinden op https://project-image-gallery.herokuapp.com
+
+Echter moet de Strapi app wel eerst local gedraaid worden. Deze app kan je vinden op: https://github.com/y3llow/image_gallery_strapi
+
 ## Available Scripts
 
 In the project directory, you can run:
